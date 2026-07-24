@@ -25,25 +25,37 @@ li ul a{
     color: #575757;
 }
 .basic-button{
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 10px;
     background-color: #1D4ED8;
     color: white;
     font-size: 15px;
     border: none;
+    box-shadow: 0 0 15px 0 black;
 }
 
 /* The Banner */
 
-.The-Banner{
+.the-banner{
     background-image: url("assets/banner.jpg");
     background-size: cover;
     background-position: center;
 
     height: 700px;
 
-    justify-content: center;
     align-items: center;
-
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    max-width: 500px;
+}
+.banner-content h1{
+    font-size: 40px;
+    margin: 10px 0;
 }
