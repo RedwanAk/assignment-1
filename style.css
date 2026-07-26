@@ -102,3 +102,24 @@ li ul a{
 .card-content p{
     color: #575757;
 }
+
+/* Subscription Area */
+
+.subscription{
+    margin: 80px auto;
+
+}
+.subscription-top{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.subscription-card{
+    border: #e5e7eb 1px solid ;
+}
+
+.subscription-top h1{
+    font-size: 40px;
+}
+.subscription-card h3 , p{
+    color: #888888;
+}
