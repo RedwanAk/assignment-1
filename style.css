@@ -7,6 +7,9 @@
 span{
     color: #1D4ED8;
 }
+button{
+    cursor: pointer;
+}
 
 /* The upper menu */
 
@@ -17,6 +20,12 @@ span{
     max-width: 1200px;
     margin: auto;
     padding: 10px 0px;
+}
+
+nav img{
+    height: 40px;
+    width: auto;
+    display: block;
 }
 .items{
     display: flex;
@@ -120,8 +129,7 @@ li ul a{
     gap: 20px;
 }
 .subscription-content{
-
-flex: 1;
+    flex: 1;
     border: #e5e7eb 1px solid;
     border-radius: 15px;
     padding: 20px;
@@ -154,6 +162,7 @@ flex: 1;
 .pro-sub{
     background-color: #0d1b2a;
     color: #e5e7eb;
+    border-color: #0d1b2a;
 }
 .pro-sub h3{
     color: #93c5fd;
@@ -201,4 +210,77 @@ flex: 1;
     font-size: 18px;
     font-weight: 700;
     background-color: white;
+}
+
+
+/* FAQ Section */
+.faq-section {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0f172a;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    color: #1d4ed8;
+    margin-bottom: 8px;
+}
+
+.faq-item p {
+    color: #575757;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* Footer Area */
+
+
+footer{
+    background-color: #0b1528;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #575757;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #575757;
 }
