@@ -107,19 +107,98 @@ li ul a{
 
 .subscription{
     margin: 80px auto;
-
+    padding: 0 20px;
+    max-width: 1200px;
 }
 .subscription-top{
     text-align: center;
     margin-bottom: 40px;
 }
 .subscription-card{
-    border: #e5e7eb 1px solid ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.subscription-content{
+
+flex: 1;
+    border: #e5e7eb 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .subscription-top h1{
     font-size: 40px;
 }
-.subscription-card h3 , p{
+.subscription-card h3{
     color: #888888;
+}
+
+.featured ul{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.featured ul li::marker{
+    color: #2563eb;
+}
+
+/* Pro card */
+
+.pro-sub{
+    background-color: #0d1b2a;
+    color: #e5e7eb;
+}
+.pro-sub h3{
+    color: #93c5fd;
+}
+.pro-sub ul li::marker{
+    color: #60a5fa;
+}
+.pro-contact{
+    background-color : #2563eb ;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pro-sub h1{
+    color: white;
+}
+.pro-sub hr{
+    border: none;     
+    border-top: 1px solid #575757;
+}
+
+/* Standard Card */
+
+.std-sub{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border-color: #2563eb;
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.team-sub{
+    background-color: #f8f9fb;
+}
+.team-contact{
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: #0d1b2a;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
 }
